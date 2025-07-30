@@ -1,0 +1,131 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background-color: #007bff;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #0056b3;
+}
+
+/* Container */
+div {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Attribute selector buttons */
+button.attribute-selected {
+  background-color: #007bff;
+  color: white;
+}
+
+button:not(.attribute-selected) {
+  background-color: #e2e6ea;
+  color: #333;
+}
+
+button:not(.attribute-selected):hover:not(:disabled) {
+  background-color: #d0d7de;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.15);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* Forms */
+form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Delete button */
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.delete-btn:hover:not(:disabled) {
+  background-color: #b52a37;
+}

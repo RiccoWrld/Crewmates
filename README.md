@@ -1,14 +1,12 @@
-# Web Development Project 7 - Crewmates
+# Web Development Project  - Crewmates
 
 Submitted by: Ricardo Beale
 
 This web app: Using supabase table and CRUD method to create update delete information about crewmates.
 
-Time spent: 6 hours spent in total
+## Features
 
-## Required Features
-
-The following **required** functionality is completed:
+The following functionality is completed:
 
 
 - [ x] **The web app contains a page that features a create form to add a new crewmate**
@@ -29,38 +27,9 @@ The following **required** functionality is completed:
     - The detail page contains extra information about the crewmate not included in the summary page
     - Users can navigate to to the edit form from the detail page
 
-The following **optional** features are implemented:
-
-- [ ] A crewmate can be given a category upon creation which restricts their attribute value options
-  - e.g., a Dungeons and Dragons class or a development team role (project manager, product owner, etc.)
-  - User can choose a `category` option to describe their crewmate before any attributes are specified
-  - Based on the category value, users are allowed to access only a subset of the possible attributes
-- [ ] A section of the summary page, displays summary statistics about a user’s crew on their crew page
-  - e.g., the percent of members with a certain attribute 
-- [ ] The summary page displays a custom “success” metric about a user’s crew which changes the look of the crewmate list
-  - e.g., a pirate crew’s predicted success at commandeering a new galley
-
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
-
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
 https://youtu.be/r42cxKJLA6U
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
